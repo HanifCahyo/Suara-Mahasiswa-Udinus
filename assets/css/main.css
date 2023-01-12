@@ -130,7 +130,7 @@ section {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: #f2f2f2;
+  background: #003373;
 }
 
 .header.sticked {
@@ -144,8 +144,8 @@ section {
 
 .header .logo h1 {
   font-size: 30px;
-  font-weight: 700;
-  color: var(--color-default);
+  font-weight: 200;
+  color: var(--color-white);
   font-family: var(--font-primary);
 }
 
@@ -239,7 +239,7 @@ section {
     font-family: var(--font-default);
     font-size: 16px;
     font-weight: 500;
-    color: rgba(var(--color-default-rgb), 1);
+    color: rgba(var(--color-white-rgb), 1);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -255,7 +255,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: var(--color-default);
+    color: var(--color-white);
   }
 
   .navbar .getstarted,
@@ -283,10 +283,14 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--color-white);
+    background: var(--color-primary);
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
   }
 
   .navbar .dropdown ul li {
@@ -307,7 +311,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
+    color: var(--color-white);
   }
 
   .navbar .dropdown:hover>ul {
@@ -1207,7 +1211,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   overflow: hidden;
-  background: rgba(var(--color-black-rgb), 0.9);
+  background: #003373;
   font-size: 16px;
   color: rgba(var(--color-white-rgb), 0.7);
 }
@@ -1277,7 +1281,7 @@ section {
 }
 
 .footer .footer-legal {
-  background: var(--color-black);
+  background: #003373;
   padding: 40px 0;
 }
 
@@ -1307,4 +1311,13 @@ section {
 
 .footer .credits a {
   color: var(--color-white);
+}
+
+.footer1 {
+  padding: 0;
+  margin: 0;
+}
+
+*.icon-white {
+  color: white
 }

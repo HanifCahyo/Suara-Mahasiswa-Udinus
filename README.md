@@ -1,2 +1,0 @@
-# Suara Mahasiswa Udinus
- 
